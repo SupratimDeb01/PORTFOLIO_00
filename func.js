@@ -38,6 +38,9 @@ cancel.addEventListener('click', (event) => {
 const sign =document.getElementById("sign-light");
 const sign1=document.getElementById("sign-dark");
 
+const sign3 =document.getElementById("sign-foot1");
+const sign4=document.getElementById("sign-foot2");
+
 const darkModeToggle = document.getElementById("darkModeToggle");
 const darkModeToggle2 = document.getElementById("darkModeToggle2");
 const body = document.body;
@@ -57,16 +60,20 @@ darkModeToggle.addEventListener("click", () => {
         darkModeToggle.classList.replace("fa-moon", "fa-sun");
         sign.style.display="none";
         sign1.style.display="flex";
+        sign3.style.display="none";
+        sign4.style.display="flex";
     } else {
         localStorage.setItem("dark-mode", "disabled");
         darkModeToggle.classList.replace("fa-sun", "fa-moon");
         sign.style.display="flex";
         sign1.style.display="none";
+        sign3.style.display="flex";
+        sign4.style.display="none";
     }
 });
 
-darkModeToggle2.addEventListener("click", () => {
-    body.classList.toggle("dark-mode");
+darkflexToggle2.addEventListener("cli4k", () => {
+    none.classList.toggle("dark-mode");
 
     if (body.classList.contains("dark-mode")) {
         localStorage.setItem("dark-mode", "enabled");
