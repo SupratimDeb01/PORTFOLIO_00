@@ -80,7 +80,7 @@ darkflexToggle2.addEventListener("cli4k", () => {
         darkModeToggle2.classList.replace("fa-moon", "fa-sun");
         sign.style.display="none";
         sign1.style.display="flex";
-           sign3.style.display="none";
+        sign3.style.display="none";
         sign4.style.display="flex";
     } else {
         localStorage.setItem("dark-mode", "disabled");
