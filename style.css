@@ -379,14 +379,27 @@ section.footer{
     flex-direction: column;
     padding: 5rem 0rem 5rem 0rem;
 }
-.foot-sign img{
-    width: 30vh;
-}
 .foot-sign{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.foot-sign img{
+    width: 30vh;
+    display: flex;
+}
+.foot-sign2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-sign2 img{
+    width: 30vh;
+    display: none;
+}
+
+
+
 .mini-navbar{
     display: flex;
     justify-content: center;
